@@ -1,11 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
-<>
-Billboard Management System
-</>
+<div className='grid-container'>
+<Header/>
+<Sidebar/>
+<Home/>
+</div>
   );
 }
 
