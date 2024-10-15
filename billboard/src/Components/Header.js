@@ -2,7 +2,7 @@ import React from 'react'
 import {BsFillBellFill,BsFillEnvelopeFill, BsPersonCircle, BsSearch, BsJustify, BsEnvelope, BsEnvelopeFill} from 'react-icons/bs'
 
 export default function Header() {
-  return (
+  return ( 
       <header className='header'>
         <div className='menu-icon'>
           <BsJustify className='icon'/>

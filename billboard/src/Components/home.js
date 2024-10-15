@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsBadge8K, BsBroadcast, BsCart3, BsFillEnvelopeCheckFill, BsFillHouseExclamationFill, BsFingerprint, BsGrid1X2Fill, BsGrid3X2GapFill, BsHouses, BsInfo, BsKanban, BsPeople, BsFillPersonVca, BsBook, BsAmazon, BsMicrosoft, BsAward } from 'react-icons/bs'
 export default function home() {
-  return (
+  return ( 
     <main className='main-container'>
      <div>
       <h3>

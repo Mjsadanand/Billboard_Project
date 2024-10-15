@@ -143,3 +143,15 @@ body{
   margin-top: 60px;
   height: 300px;
 }
+
+.red{
+  background: rgba(255, 255, 255, 0.15); /* Transparent white background */
+  -webkit-backdrop-filter: blur(10px); /* Apply blur effect */
+  backdrop-filter: blur(10px); /* For Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 10px; /* Inner padding */
+  color: #fff; 
+  width: 120px;
+}
