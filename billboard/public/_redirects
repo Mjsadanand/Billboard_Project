@@ -1,1 +1,6 @@
-/* /index.html 200
+/home                /
+/blog/my-article     /blog/some-other-article
+/news                /latest-news
+/external            https://www.your-external-link.com
+/authors/someone     /about/someone
+/*                   /index.html 200
