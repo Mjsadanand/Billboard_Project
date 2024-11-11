@@ -1,9 +1,9 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #001;
+  background-color: #F0F4F8;
   color: #7a7add;
-  font-family: 'Montserrat', 'sans-serif';
+  font-family: 'Roboto','Open Sans','Poppins';
 }
 
 .grid-container{
@@ -13,7 +13,9 @@ body{
   grid-template-areas: 'sidebar header header header' 'sidebar main main main';
   height: 100vh;
 }
-
+h1{
+  font-family: 'Roboto';
+}
 /* Header */
 .header{
   margin: 0;
@@ -43,7 +45,7 @@ body{
   transform: all 0.5s;
 }
 .sidebar-list-item a{
-  color: blanchedalmond;
+  color: rgb(23, 22, 21);
   text-decoration: none;
 }
 
@@ -93,6 +95,10 @@ body{
   overflow-y: auto;
   padding: 20px 20px;
   color: rgba(255, 255,255,0.95);
+}
+
+.main-container h2{
+  color: #000;
 }
 
 .main-title{
